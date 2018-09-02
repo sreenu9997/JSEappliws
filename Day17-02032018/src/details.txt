@@ -1,0 +1,13 @@
+ A class is a combination of properties and operations.
+ 
+ properties can be called as fields
+ 
+ operations can be called as methods
+ 
+ property or field holds data.
+ method or operation holds logic(instructions to perform any activity)
+
+
+variable names we call it as : properties or fields 
+
+we call method names as  : operations or methods

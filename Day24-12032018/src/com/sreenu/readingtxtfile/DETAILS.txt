@@ -1,0 +1,9 @@
+Exception:
+
+Two types of exceptions
+
+1) Internal exceptions / Checked exceptions
+2) External exceptions / Unchecked exceptions
+
+
+Risky statements / Un garaunteed statements // which statements may rise exception

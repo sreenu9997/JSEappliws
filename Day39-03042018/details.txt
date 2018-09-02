@@ -1,0 +1,4 @@
+user interaction :
+
+
+entering id input in console and getting details from database is called user interaction..

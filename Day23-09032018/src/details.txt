@@ -1,0 +1,2 @@
+Statc key word is used to class level
+instance variables are used to object level

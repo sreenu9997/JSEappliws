@@ -1,0 +1,9 @@
+package com.sreenu.pojopass;
+
+public class RetrieveAllDataFromDB {
+
+	public static void main(String[] args) {
+
+	}
+
+}

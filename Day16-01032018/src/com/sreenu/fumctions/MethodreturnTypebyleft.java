@@ -1,0 +1,20 @@
+package com.sreenu.fumctions;
+
+public class MethodreturnTypebyleft {
+
+	
+	public static void main(String[] args) {
+		
+		
+		char ch = getChar("Sreenivas", 6);
+		System.out.println(ch);
+	}
+	
+	
+	public static char getChar( String string , int position) {
+		int length = string.length();
+		char character = string.charAt(length-position);
+		
+		return character;
+	}
+}

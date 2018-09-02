@@ -1,0 +1,6 @@
+Entity :  An entity is combination of properties and functionality.
+
+generalization: which are having common/general things
+specialization: which are having special things
+
+reusability

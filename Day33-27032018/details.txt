@@ -1,0 +1,44 @@
+DaimondProblem:method
+
+
+public static boolean isAssociatedPresent(Shape one, Shape two){
+
+boolean result= false;
+
+if(one.getLeft() == two)
+result = true;
+else if(one.getTop()==two)
+result=true;
+
+else if(one.getRight()==two)
+result=true;
+
+else if(one.getBottom()==two)
+result=true;
+
+return true;
+
+}
+
+
+
+
+
+
+
+
+
+
+Abstract keyword:
+
+abstract class does not have the object
+
+
+
+
+
+
+
+
+
+

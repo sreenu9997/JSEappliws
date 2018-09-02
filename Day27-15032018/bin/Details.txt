@@ -1,0 +1,16 @@
+Package 1 contails 2 classes
+package 2 contains 2 classes
+
+
+Access modifier : public private protected default
+
+
+public : whether a variable accessible or not is decided by a key word is public..
+
+default is used to call the variable or method() inside the class...
+if we provide nothing before the data type is stored as default...
+
+class member: member is a property or method() in the class..
+
+private is used in the same class only..
+it is not visible outside of the class and outside of the package

@@ -1,0 +1,46 @@
+package com.sreenu.pojopass;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.util.ArrayList;
+
+public class ProductDao {
+	
+	public ArrayList<ProductPojo> getALLProducts() throws Exception{
+		ArrayList<ProductPojo> arrayList = new ArrayList<>();
+		Class.forName("com.mysql.jdbc.Driver");
+		Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/sreenu123", "root", "root");
+		PreparedStatement preparedStatement = connection.prepareStatement("select * from product");
+		ResultSet resultSet = preparedStatement.executeQuery();
+		while(resultSet.next()) {
+			
+			ProductPojo productPojo = new ProductPojo();
+			productPojo.setId(resultSet.getInt("idproduct"));
+			productPojo.setName(resultSet.getString("productname"));
+			productPojo.setCity(resultSet.getString("productcity"));
+			
+			arrayList.add(productPojo);
+			
+			}
+		
+		return arrayList;
+		
+	}
+public ProductPojo getProductByID(Integer id) throws Exception {
+	ProductPojo productpojo = new ProductPojo();
+	Class.forName("com.mysql.jdbc.Driver");
+	Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/sreenu123", "root", "root");
+	PreparedStatement preparedStatement = connection.prepareStatement("select * from product where idproduct = ?");
+	preparedStatement.setInt(1, id);
+	ResultSet resultSet = preparedStatement.executeQuery();
+	if(resultSet.next()){
+		productpojo.setId(resultSet.getInt("idproduct"));
+		productpojo.setName(resultSet.getString("productname"));
+		productpojo.setCity(resultSet.getString("productcity"));
+		
+		}
+	return productpojo;
+	}
+}

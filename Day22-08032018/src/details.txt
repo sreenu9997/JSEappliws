@@ -1,0 +1,15 @@
+
+
+if we use reference to represent a class is called Has A relationship.
+
+if we use extends keyword to call class is called Is A relationship.
+
+
+public class SIMCard{
+
+public String phno;//object level
+public String imeino;//object level
+public String regno;//object level
+public static String network;//class level variable
+
+}

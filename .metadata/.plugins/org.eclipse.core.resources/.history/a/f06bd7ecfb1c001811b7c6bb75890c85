@@ -1,0 +1,14 @@
+package com.sreenu.fumctions;
+
+public class MethodReturntypein {
+
+	public static void main(String[] args) {
+		
+		char ch = getMethodreturn("Sreenu", 0);
+		System.out.println(ch);
+	}
+	public static char getMethodreturn(String string , int position) {
+		char character = string.charAt(position);
+		return character;
+	}
+}

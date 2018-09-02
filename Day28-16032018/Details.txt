@@ -1,0 +1,76 @@
+Class 
+
+static 
+instance
+
+Method() Block : a block contains name of the method and return data type is called method block...
+
+
+A class contains properties and methods and blocks
+
+
+public class Employee{
+
+Employee(){
+sysout("default constructor);
+}
+int number;
+static int pno;
+{
+sysout(block );
+}
+static {
+sysout(static block);
+}
+public void mOne(){
+}
+public static void mtwo(){
+}
+}
+===
+only constructor level we doesn't have static key word it is applicable for only properties methods and blocks...
+ =======
+ 
+ 
+ static block, static properties, static methods are loaded when class loading time
+
+excution be like
+
+static block
+instance block
+constructor
+
+
+static block will execute when ever we call until it is not execute either static method and instance method
+
+
+
+what are the elements available in a class
+
+
+static block
+instance block
+static method
+instance method
+static properties
+instance properties
+constructors
+
+what is the execution order
+
+no order for execution when ever we call it will executes the members
+
+but initialization will happened before constructors call if it is static members (static properties and static methods) 
+
+
+w a p to demonstrate the order.. 
+
+
+
+
+
+
+
+
+
+ 

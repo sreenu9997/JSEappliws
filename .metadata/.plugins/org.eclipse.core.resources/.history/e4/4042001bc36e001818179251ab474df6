@@ -1,0 +1,22 @@
+package stringreversersss;
+
+public class StringReverse{
+
+
+public static void main(String[] args){
+
+
+String word="Good Morning";
+
+String[] wordsplit = word.split(" ");
+System.out.println();
+for(int k=0;k<=wordsplit.length;k++){
+String reverse = wordsplit.;
+for(int i=reverse.length()-1;i>=0;i--){
+
+System.out.print(reverse.charAt(i));
+}
+System.out.print (" ");
+}
+}
+}

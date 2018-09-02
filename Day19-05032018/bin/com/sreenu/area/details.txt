@@ -1,0 +1,13 @@
+instance variable : a variable declared outside the method and inside the class is called as instance variable.
+
+local variable : a variable declared inside the method or in the method parameters are called as local variables
+ 
+
+ if we want to provide the instance variable as a input for the constructor we use "this" key word
+ 
+ public class AreaOfRectangle{
+ public AreaOfRectangle(int a) {
+		System.out.println(a);		
+	}
+	int a = 20;
+	}

@@ -1,0 +1,5 @@
+Constructor: constructor is a special kind of method.
+
+to create the object we have to call the constructor.
+
+constructor will call while creating the object.

@@ -1,0 +1,30 @@
+package com.sreenu.interviewpreparation;
+
+public class StringDuplicates {
+
+	public static void main(String[] args) {
+		
+		
+		String dupString = "Welcome to Java";
+		
+	
+		
+		char[] charset = dupString.toCharArray();
+		
+		for(int i=0; i<dupString.length();i++) {
+			
+			for(int j=i+1; j<dupString.length();j++) {
+				
+				if(charset[i] == charset[j]) {
+					
+					System.out.println("Duplicate Letter is :: "+ charset[j]);
+			
+					break;
+				
+				}
+			}
+		}
+
+	}
+
+}

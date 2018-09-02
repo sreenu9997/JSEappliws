@@ -1,0 +1,4 @@
+In the 
+if you want to compare two string we need to use equals() method
+
+== is used to compare the integer and float and double data types

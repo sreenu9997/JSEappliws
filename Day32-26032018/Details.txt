@@ -1,0 +1,7 @@
+method Overriding : same data types and same return type is called overriding
+when ever we call a method it is override in sub class that method will call first..
+
+
+
+
+creating the classes is called data structuring....

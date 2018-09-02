@@ -1,0 +1,42 @@
+Encapsulation : combining or wrapping up the data and methods is called Encapsulation..
+Inheritance : aquiring data and methods from super class is called Inheritance.
+
+
+class level access modifiers are public and default only...
+method level access modifiers are default public, private, protected....
+
+
+default can accessible it is in the same class / package
+protected can accessible it is in the same class / package
+
+
+same method name and different parameters have multiple methods is called method overloading
+
+ same name
+ different data types
+ different number of parameters
+ different order of parameters
+ no return type is considered
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

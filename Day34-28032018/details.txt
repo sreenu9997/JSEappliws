@@ -1,0 +1,22 @@
+Abstract class
+Interface class
+
+
+B b = new B();
+C c = new C();
+
+B b = new C();
+
+
+
+super class reference have sub class object...
+
+sub class reference does not have super class object...
+
+1. same class reference  same class object
+2. while overriding whose method is called
+
+
+
+
+

@@ -1,0 +1,14 @@
+
+Interacting with database
+Database contains schemas
+schemas contains tables
+table contains records
+record contains data..
+
+
+connection object
+prepared statement(queries)
+execute the query
+
+
+

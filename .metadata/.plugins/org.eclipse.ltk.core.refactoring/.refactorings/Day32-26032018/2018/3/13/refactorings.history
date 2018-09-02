@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;com.sreenu.methodoverloadingtest&apos; to &apos;com.sreenu.methodoverridingtest&apos;&#x0D;&#x0A;- Original project: &apos;Day32-26032018&apos;&#x0D;&#x0A;- Original element: &apos;Day32-26032018/src/com.sreenu.methodoverloadingtest&apos;&#x0D;&#x0A;- Renamed element: &apos;Day32-26032018/src/com.sreenu.methodoverridingtest&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;com.sreenu.methodoverloadingtest&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;com.sreenu.methodoverloadingtest" name="com.sreenu.methodoverridingtest" qualified="false" references="true" stamp="1522034508892" textual="false" version="1.0"/>
+</session>

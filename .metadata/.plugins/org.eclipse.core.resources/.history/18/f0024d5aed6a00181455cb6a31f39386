@@ -1,0 +1,9 @@
+package com.sreenu.main;
+
+public class RetrieveDatafromDBUsingOR {
+
+	public static void main(String[] args) {
+
+	}
+
+}

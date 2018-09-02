@@ -1,0 +1,4 @@
+FileWriter is used to write the files 
+
+write () will store/capture the data
+flush () will save the data in file

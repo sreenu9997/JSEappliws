@@ -1,0 +1,12 @@
+package com.sreenu.fumctions;
+
+public class MethodreturnTypebyleft {
+
+	
+	public static char getChar( String string , int position) {
+		int length = string.length();
+		char character = string.charAt(length-position);
+		
+		return character;
+	}
+}
